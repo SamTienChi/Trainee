@@ -1,0 +1,16 @@
+[
+  {
+    "type":"food",
+    "id":1,
+    "name":"Fried Rice",
+    "price":50,
+    "calories":600
+  },
+  {
+    "type":"drink",
+    "id":2,
+    "name":"Milk Tea",
+    "price":30,
+    "size":"M"
+  }
+]

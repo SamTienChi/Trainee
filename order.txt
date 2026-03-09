@@ -1,0 +1,16 @@
+------ ORDER BILL ------
+
+Food: Fried Rice
+Price: 50.0
+Quantity: 12
+Tax: 5.0
+Subtotal: 660.0
+----------------------
+Drink: Milk Tea
+Price: 30.0
+Quantity: 2
+Size: M
+Tax: 6.0
+Subtotal: 72.0
+----------------------
+TOTAL BILL: 732.0
