@@ -22,4 +22,15 @@ public class InputValidator {
             }
         }
     }
+
+    public static int getInt(Scanner sc, String message){
+        while(true){
+            try{
+                System.out.print(message);
+                return Integer.parseInt(sc.nextLine());
+            }catch(NumberFormatException  e){
+                System.out.println("Invalid number!");
+            }
+        }
+    }
 }

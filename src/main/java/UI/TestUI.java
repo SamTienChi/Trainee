@@ -2,7 +2,7 @@ package UI;
 
 import model.Menu;
 import model.Order;
-
+import validation.InputValidator;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -16,6 +16,7 @@ public class TestUI {
         boolean flag = true;
         MenuServices myMenu = new MenuServices();
         OrderServices myOrder = new OrderServices();
+        InputValidator inputValidate = new InputValidator();
         List<Menu> items = null;
         List<Order> order = new ArrayList<>();
 
@@ -25,6 +26,7 @@ public class TestUI {
             while(flag){
                 System.out.print("Please enter the file name: ");
                 String fileName = scanner.next() + ".json";
+                scanner.nextLine();
                 try{
                     items = myMenu.getAllItem(fileName);
                     if(!items.isEmpty()){
@@ -43,9 +45,7 @@ public class TestUI {
             System.out.println("3. Remove order");
             System.out.println("4. Export Order");
             System.out.println("Other. Exit");
-            System.out.print("+Choose your type: ");
-            n = scanner.nextInt();
-            scanner.nextLine();
+            n = inputValidate.getInt(scanner, "+Choose your type: ");
             switch(n) {
                 case 0:
                     myMenu.displayItem(items);

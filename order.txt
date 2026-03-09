@@ -2,9 +2,17 @@
 
 Food: Fried Rice
 Price: 50.0
-Quantity: 12
+Quantity: 1
 Tax: 5.0
-Subtotal: 660.0
+Subtotal: 55.0
+Calories600
+----------------------
+Food: Meat
+Price: 25.0
+Quantity: 2
+Tax: 2.5
+Subtotal: 55.0
+Calories100
 ----------------------
 Drink: Milk Tea
 Price: 30.0
@@ -13,4 +21,4 @@ Size: M
 Tax: 6.0
 Subtotal: 72.0
 ----------------------
-TOTAL BILL: 732.0
+TOTAL BILL: 182.0

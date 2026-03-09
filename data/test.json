@@ -12,5 +12,26 @@
     "name":"Milk Tea",
     "price":30,
     "size":"M"
+  },
+  {
+    "type":"food",
+    "id":3,
+    "name":"Fried Primp",
+    "price":20,
+    "calories":600
+  },
+  {
+    "type":"drink",
+    "id":4,
+    "name":"Jasmine Milk Tea",
+    "price":30,
+    "size":"S"
+  },
+  {
+    "type":"food",
+    "id":5,
+    "name":"Meat",
+    "price":25,
+    "calories": 100
   }
 ]

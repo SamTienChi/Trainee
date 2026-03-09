@@ -126,11 +126,13 @@ public class OrderServices {
                 double subTotal = (price + tax) * quantity;
 
                 if(item instanceof Food){
+                    Food f = (Food) item;
                     writer.println("Food: " + item.getName());
                     writer.println("Price: " + price);
                     writer.println("Quantity: " + quantity);
                     writer.println("Tax: " + tax);
                     writer.println("Subtotal: " + subTotal);
+                    writer.println("Calories" + f.getCalories());
                     writer.println("----------------------");
                 }
 

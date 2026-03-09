@@ -34,8 +34,6 @@ public class MenuServices {
             errors.forEach(System.out::println);
             throw new RuntimeException("Invalid JSON data");
         }
-        System.out.println("Data for: " + items);
-
         return items;
     }
 
@@ -111,7 +109,7 @@ public class MenuServices {
         for(Menu item : foods){
             Food food = (Food) item;
 
-            System.out.println(food.getId() + ". " +
+            System.out.println(
                     food.getName() + " - $" +
                     food.getPrice() +
                     " - " + food.getCalories() + " cal");
@@ -122,7 +120,7 @@ public class MenuServices {
         for(Menu item : drinks){
             Drink drink = (Drink) item;
 
-            System.out.println(drink.getId() + ". " +
+            System.out.println(
                     drink.getName() + " - $" +
                     drink.getPrice() +
                     " - Size " + drink.getSize());
