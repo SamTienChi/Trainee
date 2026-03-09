@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Burger",
+    "price": 20,
+    "type": "food",
+    "quantity": 2,
+    "calories": 500
+  },
+  {
+    "id": 2,
+    "name": "Burger",
+    "price": 10,
+    "type": "drink",
+    "quantity": 3,
+    "size": "s"
+  },
+  {
+    "id": 3,
+    "name": "Fried Chicken",
+    "price": 30,
+    "type": "food",
+    "quantity": 1,
+    "calories": 800
+  }
+]

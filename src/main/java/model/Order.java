@@ -1,6 +1,4 @@
 package model;
-import model.Menu;
-import java.util.List;
 
 public class Order {
     private Menu item;

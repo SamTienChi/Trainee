@@ -1,24 +1,5 @@
------- ORDER BILL ------
-
-Food: Fried Rice
-Price: 50.0
-Quantity: 1
-Tax: 5.0
-Subtotal: 55.0
-Calories600
-----------------------
-Food: Meat
-Price: 25.0
-Quantity: 2
-Tax: 2.5
-Subtotal: 55.0
-Calories100
-----------------------
-Drink: Milk Tea
-Price: 30.0
-Quantity: 2
-Size: M
-Tax: 6.0
-Subtotal: 72.0
-----------------------
-TOTAL BILL: 182.0
+1 | Burger | quantity = 2 | total = 44.0 | calories=500
+2 | Burger | quantity = 3 | total = 31.5 | size=s
+3 | Fried Chicken | quantity = 1 | total = 33.0 | calories=800
+-------------------
+Total = 108.5
